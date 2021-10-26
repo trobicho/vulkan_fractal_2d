@@ -6,7 +6,7 @@
 #    By: trobicho <trobicho@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/16 22:25:09 by trobicho          #+#    #+#              #
-#    Updated: 2021/10/26 19:58:51 by trobicho         ###   ########.fr        #
+#    Updated: 2021/10/26 21:57:31 by trobicho         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,12 +38,16 @@ SHADERS_NAME =	shader.vert \
 								mandelbrot_double.frag \
 								batman_float.frag \
 								batman_double.frag \
+								mandelbrot_sdf_float.frag \
+								mandelbrot_sdf_double.frag \
 
 SHADERS_RESULT_NAME =	vert.spv \
 											mandelbrot_float.spv \
 											mandelbrot_double.spv \
 											batman_float.spv \
 											batman_double.spv \
+											mandelbrot_sdf_float.spv \
+											mandelbrot_sdf_double.spv \
 
 SRCS_NAME =	main.cpp \
 						Basic_vulk.cpp \

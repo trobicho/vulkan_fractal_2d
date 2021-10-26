@@ -6,7 +6,7 @@
 /*   By: trobicho <trobicho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 09:56:39 by trobicho          #+#    #+#             */
-/*   Updated: 2021/10/26 20:30:04 by trobicho         ###   ########.fr       */
+/*   Updated: 2021/10/26 21:57:44 by trobicho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -201,11 +201,13 @@ void	Basic_vulk::create_graphics_pipelines()
 	{
 		"shaders/mandelbrot_float.spv",
 		"shaders/batman_float.spv",
+		"shaders/mandelbrot_sdf_float.spv",
 	};
 	const	std::vector<const char*>	shader_list_double=
 	{
 		"shaders/mandelbrot_double.spv",
 		"shaders/batman_double.spv",
+		"shaders/mandelbrot_sdf_double.spv",
 	};
 	
 	{//pipeline layout creation

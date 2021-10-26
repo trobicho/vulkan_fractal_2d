@@ -118,7 +118,7 @@ class		Basic_vulk
 		//STATE VARIABLE
 		uint32_t          m_debug_mode;
 		uint32_t					m_cur_pipeline_n = 0;
-		bool							m_cur_pipeline_double = false;
+		bool							m_cur_pipeline_double = true;
 
 		//VULKAN VARIABLE
 		VkInstance        						m_instance;
